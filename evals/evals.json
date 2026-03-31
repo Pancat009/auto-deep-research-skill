@@ -1,0 +1,20 @@
+{
+  "skill_name": "auto-deep-research",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "/auto-deep-research 解释什么是 React Server Components 和它和 SSR 的区别",
+      "expected_output": "结构化报告，包含 RSC 定义、vs SSR 对比、使用场景，需 ≥2 来源"
+    },
+    {
+      "id": 2,
+      "prompt": "/auto-deep-research Claude Code 和 Cursor 有什么区别，哪个更适合纯编程",
+      "expected_output": "结构化报告，包含两者对比、优缺点、适用场景，需 ≥2 来源"
+    },
+    {
+      "id": 3,
+      "prompt": "/auto-deep-research 目前最好的开源 TTS 模型是哪个",
+      "expected_output": "结构化报告，包含各种 TTS 模型对比、优缺点，最好有时效性验证"
+    }
+  ]
+}
